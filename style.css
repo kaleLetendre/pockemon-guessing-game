@@ -15,6 +15,7 @@ body {
 .card {
   width: 33.3%;
   position: relative;
+  transition: transform 1s;
 }
 
 
@@ -25,4 +26,10 @@ img {
 .front_face,
 .back_face {
   position: absolute;
+  backface-visibility: hidden;
+}
+
+
+.flip {
+  transform: rotateY(180deg);
 }
