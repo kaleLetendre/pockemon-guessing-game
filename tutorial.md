@@ -4,3 +4,4 @@
 # Step 4. Add a flip animation to the cards on hover.
 # Step 4.1 Add the flip class to rotateY(180deg) to the .card:hover and transition in 1s
 # Step 4.2 Make the rotation in 3d by adding perspective: 1000px; to the .card
+# Step 5. Check if two cards are the same.
