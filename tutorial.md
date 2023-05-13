@@ -6,4 +6,5 @@
 # Step 4.2 Make the rotation in 3d by adding perspective: 1000px; to the .card
 # Step 5. Check if two cards are the same.
 # Step 6a If two cards are not the same, flip them back
-# Step 6b If two cards are not the same, flip them back with some delay
+# Step 6b If two cards are not the same, flip them back with some 
+# Step 7. If two cards are the same, remove them from the game.
