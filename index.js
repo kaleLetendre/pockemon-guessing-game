@@ -20,8 +20,10 @@ const setup = () => {
         console.log("match")
       else {
         console.log("no match")
-        $(`#${firstCard.id}`).parent().toggleClass("flip")
-        $(`#${secondCard.id}`).parent().toggleClass("flip")
+        setTimeout(() => {
+          $(`#${firstCard.id}`).parent().toggleClass("flip")
+          $(`#${secondCard.id}`).parent().toggleClass("flip")
+        }, 1000)
       }
     }
   });
