@@ -13,31 +13,43 @@
 </head>
 
 <body>
-  <div id="game_grid">
-    <div class="card">
-      <img id="img1" class="front_face" src="001.png" alt="">
-      <img class="back_face" src="back.webp" alt="">
+  <div id="overlay">
+    <div id="buttons">
+      <button id="start">Start</button>
+      <button id="reset">Reset</button>
     </div>
-    <div class="card">
-      <img id="img2" class="front_face" src="002.png" alt="">
-      <img class="back_face" src="back.webp" alt="">
+    <div id="pairs" class="stats">Total pairs: 0</div>
+    <div id="pairs_left" class="stats">Pairs left: 0</div>
+    <div id="moves" class="stats">Moves: 0</div>
+    <div id="time" class="stats">Time: 60</div>
+    <div id="game_grid">
+      <!-- <div class="card">
+        <img id="img1" class="front_face" src="001.png" alt="">
+        <img class="back_face" src="back.webp" alt="">
+      </div>
+      <div class="card">
+        <img id="img2" class="front_face" src="002.png" alt="">
+        <img class="back_face" src="back.webp" alt="">
+      </div>
+      <div class="card">
+        <img id="img3" class="front_face" src="003.png" alt="">
+        <img class="back_face" src="back.webp" alt="">
+      </div>
+      <div class="card">
+        <img id="img4" class="front_face" src="001.png" alt="">
+        <img class="back_face" src="back.webp" alt="">
+      </div>
+      <div class="card">
+        <img id="img5" class="front_face" src="002.png" alt="">
+        <img class="back_face" src="back.webp" alt="">
+      </div>
+      <div class="card">
+        <img id="img6" class="front_face" src="003.png" alt="">
+        <img class="back_face" src="back.webp" alt="">
+      </div> -->
     </div>
-    <div class="card">
-      <img id="img3" class="front_face" src="003.png" alt="">
-      <img class="back_face" src="back.webp" alt="">
-    </div>
-    <div class="card">
-      <img id="img4" class="front_face" src="001.png" alt="">
-      <img class="back_face" src="back.webp" alt="">
-    </div>
-    <div class="card">
-      <img id="img5" class="front_face" src="002.png" alt="">
-      <img class="back_face" src="back.webp" alt="">
-    </div>
-    <div class="card">
-      <img id="img6" class="front_face" src="003.png" alt="">
-      <img class="back_face" src="back.webp" alt="">
-    </div>
+    <!-- dark mode toggle -->
+    <button id="dark_mode">Dark Mode</button>
   </div>
 </body>
 
